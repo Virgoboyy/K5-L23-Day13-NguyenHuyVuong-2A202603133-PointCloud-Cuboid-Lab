@@ -1,21 +1,27 @@
-# Báo cáo Day 13 — <Họ và tên>, <MSSV>
+# Báo cáo Day 13 — Nguyễn Huy Vương, 2A202603133
 
 > **Cách dùng mẫu này:** đổi tên file thành `<MSSV>_<HoTen>.md` (họ tên không dấu, viết liền), ví dụ `2A202600123_NguyenVanAn.md`. Đổi tên, đừng chép thành file thứ hai.
 >
 > Xoá mọi dấu TODO và dòng gợi ý (dòng bắt đầu bằng `>`). Mỗi con số lấy từ **bảng A** hoặc **phiếu tự kiểm** trong `submission/`, kèm đơn vị (m, °). Ảnh để trong `report/individual/images/` (nộp LMS trong file zip, không commit); trong báo cáo chỉ ghi **tên file ảnh**. Báo cáo này nằm trên repo public: không chép biển số, chữ trên biển hiệu hay biển chỉ đường, tên đường, địa danh; nhắc tới bạn khác thì ghi MSSV, không ghi họ tên. Cả báo cáo ~2 trang.
 
 ## 1. Kết luận trước
-TODO(học viên): mã số, task `D13-…`, 10 frame của bạn; hệ điều hành, trình duyệt, phiên bản CVAT (tên tài khoản → About); MSSV bạn ngồi cạnh. Rồi 2–3 câu: tổng bao nhiêu cuboid, frame nào ít nhất và vì sao; `selfcheck` cờ bao nhiêu cuboid trên tổng số; bạn tin phần nào nhất và phần nào còn yếu nhất (hướng, đáy, kích thước, class, vật xa).
+- **Mã số học viên:** 2A202603133
+- **Task CVAT:** `D13-2A202603133`
+- **10 frame được giao:** `s01f15`, `s01f37`, `s02f34`, `s02f54`, `s03f01`, `s03f18`, `s04f18`, `s04f43`, `s05f04`, `s05f19`
+- **Môi trường làm việc:** Hệ điều hành Windows, trình duyệt Chrome/Edge, CVAT v2.83.0 (user: `vuongvnbn1`).
+- **MSSV bạn ngồi cạnh:** TODO(học viên)
+
+TODO(học viên): 2–3 câu: tổng bao nhiêu cuboid, frame nào ít nhất và vì sao; `selfcheck` cờ bao nhiêu cuboid trên tổng số; bạn tin phần nào nhất và phần nào còn yếu nhất (hướng, đáy, kích thước, class, vật xa).
 
 TODO(học viên): cách dùng CVAT, 3 dòng: đổi góc nhìn (nhìn từ trên xuống, xoay, dời); vẽ và chỉnh một cuboid (Shape, nháy đúp, Top/Side/Front); bật mũi tên hướng (Cuboid orientation) và xem cuboid trên ảnh camera (`preview`).
 
 ## 2. Đọc frame (Bước 2)
-Hai frame đọc kỹ. Ảnh: `t1-<frame>-3d`, `t1-<frame>-top` (ảnh nhìn từ trên xuống, có đánh dấu phía trước, +x, +y).
+Hai frame đọc kỹ: `s01f15`, `s01f37`. Ảnh: `t1-s01f15-3d`, `t1-s01f15-top`, `t1-s01f37-3d`, `t1-s01f37-top` (ảnh nhìn từ trên xuống, có đánh dấu phía trước, +x, +y).
 
 | Frame | Phía trước xe ở cạnh nào của ảnh nhìn từ trên xuống; +x, +y chỉ về đâu | Mặt đường (phẳng/dốc; thấp hơn LiDAR ~ m) | Vật xa nhất đọc được (~ m) | Loại vật thấy | Vật phía sau / hai bên | Cụm chưa đọc được |
 |---|---|---|---|---|---|---|
-| TODO(học viên) | | | | | | |
-| TODO(học viên) | | | | | | |
+| `s01f15` | TODO(học viên) | TODO(học viên) | TODO(học viên) | TODO(học viên) | TODO(học viên) | TODO(học viên) |
+| `s01f37` | TODO(học viên) | TODO(học viên) | TODO(học viên) | TODO(học viên) | TODO(học viên) | TODO(học viên) |
 
 TODO(học viên): 3 điều **chỉ camera** cho biết và 3 điều **chỉ LiDAR** cho biết, lấy từ chính hai frame trên.
 
@@ -23,7 +29,14 @@ Tám frame lướt:
 
 | Frame | Phía trước ở cạnh nào của ảnh nhìn từ trên xuống | Điều lạ (nếu có) |
 |---|---|---|
-| TODO(học viên) | | |
+| `s02f34` | TODO(học viên) | TODO(học viên) |
+| `s02f54` | TODO(học viên) | TODO(học viên) |
+| `s03f01` | TODO(học viên) | TODO(học viên) |
+| `s03f18` | TODO(học viên) | TODO(học viên) |
+| `s04f18` | TODO(học viên) | TODO(học viên) |
+| `s04f43` | TODO(học viên) | TODO(học viên) |
+| `s05f04` | TODO(học viên) | TODO(học viên) |
+| `s05f19` | TODO(học viên) | TODO(học viên) |
 
 ## 3. Ba cuboid có hướng dẫn (Bước 3)
 Ảnh: `t2-a-car`, `t2-b-bus-truck`, `t2-c-ped-cyclist`.
